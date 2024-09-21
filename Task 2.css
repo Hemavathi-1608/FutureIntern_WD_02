@@ -1,0 +1,161 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation styling */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.navbar ul li a:hover {
+    background: color #555;;
+    border-radius: 5px;
+}
+
+/* Intro section */
+.intro {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.intro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+    color:#666;
+}
+
+/* About section */
+.about-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    color: #666;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+/* Projects section */
+.projects-section {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.projects-section h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-item {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.project-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Contact section */
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.contact-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
